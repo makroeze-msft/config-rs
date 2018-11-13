@@ -26,7 +26,7 @@ serde = "1.0.8"
 nom = "4.0.0"
 
 toml = { version = "0.4.1", optional = true }
-serde_json = { version = "1.0.2", optional = true }
+serde_json = { path = "../json", optional = true }
 yaml-rust = { version = "0.4", optional = true }
 serde-hjson = { path = "../hjson-rust/hjson", optional = true }
 rust-ini = { version = "0.13", optional = true }
